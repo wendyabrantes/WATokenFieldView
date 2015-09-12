@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "WATokenFieldView"
-  s.version      = "0.0.1"
+  s.version      = "1.0"
   s.summary      = "iOS custom view that let you add token view in a view while typing/searching"
 
   s.description  = <<-DESC
