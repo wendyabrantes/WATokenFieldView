@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C522BFE11BA3F63A00D66DF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C522BFD71BA3F63A00D66DF9 /* AppDelegate.m */; };
+		C522BFE21BA3F63A00D66DF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C522BFD81BA3F63A00D66DF9 /* LaunchScreen.xib */; };
+		C522BFE31BA3F63A00D66DF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C522BFDA1BA3F63A00D66DF9 /* Main.storyboard */; };
+		C522BFE41BA3F63A00D66DF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C522BFDC1BA3F63A00D66DF9 /* Images.xcassets */; };
+		C522BFE51BA3F63A00D66DF9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C522BFDD1BA3F63A00D66DF9 /* Info.plist */; };
+		C522BFE61BA3F63A00D66DF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C522BFDE1BA3F63A00D66DF9 /* main.m */; };
+		C522BFE71BA3F63A00D66DF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C522BFE01BA3F63A00D66DF9 /* ViewController.m */; };
+		C55042541BA4022C0004C2EF /* WACheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C55042511BA4022C0004C2EF /* WACheckButton.m */; };
+		C55042551BA4022C0004C2EF /* WAFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C55042531BA4022C0004C2EF /* WAFriendTableViewCell.m */; };
+		C550425F1BA412F10004C2EF /* WASearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C55042581BA412F10004C2EF /* WASearchTextField.m */; };
+		C55042601BA412F10004C2EF /* WATextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C550425A1BA412F10004C2EF /* WATextField.m */; };
+		C55042611BA412F10004C2EF /* WATokenFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = C550425C1BA412F10004C2EF /* WATokenFieldView.m */; };
+		C55042621BA412F10004C2EF /* WATokenView.m in Sources */ = {isa = PBXBuildFile; fileRef = C550425E1BA412F10004C2EF /* WATokenView.m */; };
+		C55042651BA413AD0004C2EF /* WATokenFieldViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C55042641BA413AD0004C2EF /* WATokenFieldViewStyleKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C522BFAC1BA3F4C300D66DF9 /* WATokenFieldViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WATokenFieldViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C522BFCA1BA3F4C300D66DF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C522BFCB1BA3F4C300D66DF9 /* WATokenFieldViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WATokenFieldViewTests.m; sourceTree = "<group>"; };
+		C522BFD61BA3F63A00D66DF9 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C522BFD71BA3F63A00D66DF9 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C522BFD91BA3F63A00D66DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C522BFDB1BA3F63A00D66DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C522BFDC1BA3F63A00D66DF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C522BFDD1BA3F63A00D66DF9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C522BFDE1BA3F63A00D66DF9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C522BFDF1BA3F63A00D66DF9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C522BFE01BA3F63A00D66DF9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C55042501BA4022C0004C2EF /* WACheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WACheckButton.h; sourceTree = "<group>"; };
+		C55042511BA4022C0004C2EF /* WACheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WACheckButton.m; sourceTree = "<group>"; };
+		C55042521BA4022C0004C2EF /* WAFriendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAFriendTableViewCell.h; sourceTree = "<group>"; };
+		C55042531BA4022C0004C2EF /* WAFriendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAFriendTableViewCell.m; sourceTree = "<group>"; };
+		C55042571BA412F10004C2EF /* WASearchTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WASearchTextField.h; sourceTree = "<group>"; };
+		C55042581BA412F10004C2EF /* WASearchTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WASearchTextField.m; sourceTree = "<group>"; };
+		C55042591BA412F10004C2EF /* WATextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATextField.h; sourceTree = "<group>"; };
+		C550425A1BA412F10004C2EF /* WATextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATextField.m; sourceTree = "<group>"; };
+		C550425B1BA412F10004C2EF /* WATokenFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATokenFieldView.h; sourceTree = "<group>"; };
+		C550425C1BA412F10004C2EF /* WATokenFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATokenFieldView.m; sourceTree = "<group>"; };
+		C550425D1BA412F10004C2EF /* WATokenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATokenView.h; sourceTree = "<group>"; };
+		C550425E1BA412F10004C2EF /* WATokenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATokenView.m; sourceTree = "<group>"; };
+		C55042631BA413AD0004C2EF /* WATokenFieldViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WATokenFieldViewStyleKit.h; sourceTree = "<group>"; };
+		C55042641BA413AD0004C2EF /* WATokenFieldViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WATokenFieldViewStyleKit.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C522BFA91BA3F4C300D66DF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C522BFA31BA3F4C300D66DF9 = {
+			isa = PBXGroup;
+			children = (
+				C522BFD51BA3F63A00D66DF9 /* WATokenFieldViewExample */,
+				C522BFC81BA3F4C300D66DF9 /* WATokenFieldViewTests */,
+				C522BFAD1BA3F4C300D66DF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C522BFAD1BA3F4C300D66DF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C522BFAC1BA3F4C300D66DF9 /* WATokenFieldViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C522BFC81BA3F4C300D66DF9 /* WATokenFieldViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C522BFCB1BA3F4C300D66DF9 /* WATokenFieldViewTests.m */,
+				C522BFC91BA3F4C300D66DF9 /* Supporting Files */,
+			);
+			path = WATokenFieldViewTests;
+			sourceTree = "<group>";
+		};
+		C522BFC91BA3F4C300D66DF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C522BFCA1BA3F4C300D66DF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C522BFD51BA3F63A00D66DF9 /* WATokenFieldViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				C55042561BA412F10004C2EF /* WATokenFieldView */,
+				C522BFD61BA3F63A00D66DF9 /* AppDelegate.h */,
+				C522BFD71BA3F63A00D66DF9 /* AppDelegate.m */,
+				C522BFD81BA3F63A00D66DF9 /* LaunchScreen.xib */,
+				C522BFDA1BA3F63A00D66DF9 /* Main.storyboard */,
+				C522BFDC1BA3F63A00D66DF9 /* Images.xcassets */,
+				C522BFDD1BA3F63A00D66DF9 /* Info.plist */,
+				C522BFDE1BA3F63A00D66DF9 /* main.m */,
+				C522BFDF1BA3F63A00D66DF9 /* ViewController.h */,
+				C55042501BA4022C0004C2EF /* WACheckButton.h */,
+				C55042511BA4022C0004C2EF /* WACheckButton.m */,
+				C55042521BA4022C0004C2EF /* WAFriendTableViewCell.h */,
+				C55042531BA4022C0004C2EF /* WAFriendTableViewCell.m */,
+				C522BFE01BA3F63A00D66DF9 /* ViewController.m */,
+			);
+			path = WATokenFieldViewExample;
+			sourceTree = "<group>";
+		};
+		C55042561BA412F10004C2EF /* WATokenFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				C55042631BA413AD0004C2EF /* WATokenFieldViewStyleKit.h */,
+				C55042641BA413AD0004C2EF /* WATokenFieldViewStyleKit.m */,
+				C55042571BA412F10004C2EF /* WASearchTextField.h */,
+				C55042581BA412F10004C2EF /* WASearchTextField.m */,
+				C55042591BA412F10004C2EF /* WATextField.h */,
+				C550425A1BA412F10004C2EF /* WATextField.m */,
+				C550425B1BA412F10004C2EF /* WATokenFieldView.h */,
+				C550425C1BA412F10004C2EF /* WATokenFieldView.m */,
+				C550425D1BA412F10004C2EF /* WATokenView.h */,
+				C550425E1BA412F10004C2EF /* WATokenView.m */,
+			);
+			path = WATokenFieldView;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C522BFAB1BA3F4C300D66DF9 /* WATokenFieldViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C522BFCF1BA3F4C300D66DF9 /* Build configuration list for PBXNativeTarget "WATokenFieldViewExample" */;
+			buildPhases = (
+				C522BFA81BA3F4C300D66DF9 /* Sources */,
+				C522BFA91BA3F4C300D66DF9 /* Frameworks */,
+				C522BFAA1BA3F4C300D66DF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WATokenFieldViewExample;
+			productName = WATokenFieldView;
+			productReference = C522BFAC1BA3F4C300D66DF9 /* WATokenFieldViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C522BFA41BA3F4C300D66DF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "ABRANTES DIGITAL LTD";
+				TargetAttributes = {
+					C522BFAB1BA3F4C300D66DF9 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = GGL87HT5RK;
+					};
+				};
+			};
+			buildConfigurationList = C522BFA71BA3F4C300D66DF9 /* Build configuration list for PBXProject "WATokenFieldViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C522BFA31BA3F4C300D66DF9;
+			productRefGroup = C522BFAD1BA3F4C300D66DF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C522BFAB1BA3F4C300D66DF9 /* WATokenFieldViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C522BFAA1BA3F4C300D66DF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C522BFE51BA3F63A00D66DF9 /* Info.plist in Resources */,
+				C522BFE41BA3F63A00D66DF9 /* Images.xcassets in Resources */,
+				C522BFE21BA3F63A00D66DF9 /* LaunchScreen.xib in Resources */,
+				C522BFE31BA3F63A00D66DF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C522BFA81BA3F4C300D66DF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55042621BA412F10004C2EF /* WATokenView.m in Sources */,
+				C522BFE71BA3F63A00D66DF9 /* ViewController.m in Sources */,
+				C522BFE61BA3F63A00D66DF9 /* main.m in Sources */,
+				C55042541BA4022C0004C2EF /* WACheckButton.m in Sources */,
+				C55042601BA412F10004C2EF /* WATextField.m in Sources */,
+				C55042551BA4022C0004C2EF /* WAFriendTableViewCell.m in Sources */,
+				C55042611BA412F10004C2EF /* WATokenFieldView.m in Sources */,
+				C522BFE11BA3F63A00D66DF9 /* AppDelegate.m in Sources */,
+				C55042651BA413AD0004C2EF /* WATokenFieldViewStyleKit.m in Sources */,
+				C550425F1BA412F10004C2EF /* WASearchTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C522BFD81BA3F63A00D66DF9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C522BFD91BA3F63A00D66DF9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C522BFDA1BA3F63A00D66DF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C522BFDB1BA3F63A00D66DF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C522BFCD1BA3F4C300D66DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C522BFCE1BA3F4C300D66DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C522BFD01BA3F4C300D66DF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/WATokenFieldViewExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WATokenFieldViewExample;
+			};
+			name = Debug;
+		};
+		C522BFD11BA3F4C300D66DF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/WATokenFieldViewExample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = WATokenFieldViewExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C522BFA71BA3F4C300D66DF9 /* Build configuration list for PBXProject "WATokenFieldViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C522BFCD1BA3F4C300D66DF9 /* Debug */,
+				C522BFCE1BA3F4C300D66DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C522BFCF1BA3F4C300D66DF9 /* Build configuration list for PBXNativeTarget "WATokenFieldViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C522BFD01BA3F4C300D66DF9 /* Debug */,
+				C522BFD11BA3F4C300D66DF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C522BFA41BA3F4C300D66DF9 /* Project object */;
+}
