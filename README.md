@@ -54,10 +54,6 @@ All you need to do is drop WATokenFieldView folder into your project and include
   _tokenFieldView.placeholder = @"enter a name";
 ```
 
-## TODO
-
-* Add more different animations
-
 ## Contact
 
 Wendy Abrantes
