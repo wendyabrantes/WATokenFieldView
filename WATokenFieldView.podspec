@@ -12,12 +12,12 @@ Pod::Spec.new do |s|
   s.version      = "1.0"
   s.authors      = { "Wendy Abrantes" => "abranteswendy@gmail.com" }
   s.homepage     = "https://github.com/wendyabrantes/WATokenFieldView"
-  s.summary      = "WATokenFieldView is custom view that let you add token view in a view while typing/searching. A similar view is used by facebook on update status screen."
+  s.summary      = "WATokenFieldView is custom view that let you add token view in a view while typing/searching."
   s.source       = { :git => "https://github.com/wendyabrantes/WATokenFieldView.git",
                      :tag => '1.0' }
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.platform = :ios, '8.0'
-  s.source_files = "WATokenFieldView/**/*.swift"
+  s.source_files = "WATokenFieldView/**/*.{h,m}"
 
   s.requires_arc = true
   
