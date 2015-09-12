@@ -1,7 +1,7 @@
 # WATokenFieldView
 WATokenFieldView is custom view that let you add token view in a view while typing/searching. A similar view is used by facebook application to search for a friend.
 
-![alt tag](https://raw.githubusercontent.com/gontovnik/DGActivityIndicatorView/master/DGActivityIndicatorView.gif)
+<!--![alt tag](https://raw.githubusercontent.com/gontovnik/DGActivityIndicatorView/master/DGActivityIndicatorView.gif)-->
 
 ## Requirements
 * Xcode 6 or higher
