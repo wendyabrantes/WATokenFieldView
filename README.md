@@ -15,9 +15,9 @@ Open and run the WATokenFieldViewExample project in Xcode to see WATokenFieldVie
 
 ## Installation
 
-### Cocoapods
+### CocoaPods
 
-Install Cocoapods if it is not installed yet:
+Install CocoaPods if it is not installed yet:
 
 ``` bash
 $ [sudo] gem install cocoapods
